@@ -1,0 +1,312 @@
+/* CUSTOM CSS */
+
+/* ================= CSS RESET ================= */
+* {
+    font-family: Exo, sans-serif;
+}
+/* ================= END CSS RESET ================= */
+
+/* ================= FONT FACE ================= */
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/Exo-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/Exo-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+/* ================= END FONT FACE ================= */
+
+/* ================= PRESETS ================= */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 6em;
+}
+/* ================= END PRESETS ================= */
+
+/*  */
+body::after {
+    content: '';
+    background: url(../img/background.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+}
+
+.form-control,
+.btn {
+    border-radius: 2px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.date {
+    line-height: 80px;
+    font-size: 1.3em;
+    margin-left: 5px;
+    display: block;
+    text-align: center;
+}
+
+/* ================= THUMBNAIL ================= */
+.thumbnail > .heading {
+    padding: 9px;
+}
+
+.thumbnail-footer > .help-block {
+    margin-bottom: 0;
+}
+
+.thumbnail-footer {
+    margin: -4px;
+    background: #f2f2f5;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 4px 0;
+}
+
+.thumbnail .caption h4 {
+    margin-bottom: 0;
+}
+
+.thumbnail {
+    box-shadow: 0px 0px 20px -9px rgba(0, 0, 0, 0.5);
+    transition: all .5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.5);
+}
+
+.thumbnail > .heading {
+    margin: -4px;
+    padding: 9px;
+    border-bottom: 1px dotted #d8d8e6;
+}
+/* ================= END THUMBNAIL ================= */
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none !important;
+}
+
+.btn-join,
+.btn-delete {
+    margin: 10px 0;
+}
+
+/* ================= TABLE ================= */
+.table > thead > tr > th {
+    border-bottom-width: 1px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 15px 8px;
+}
+
+.table th {
+    text-align: center;
+}
+/* ================= END TABLE ================= */
+
+/* ================= HEADER ================= */
+.navbar-form h2,
+.navbar-form.navbar-right .well {
+    margin-bottom: 2px;
+}
+
+.heading-links .login {
+    margin-right: 10px !important;
+}
+
+.heading-links .nav a {
+    padding: 30px 15px;
+}
+/* ================= END HEADER ================= */
+
+.table-rides {
+    margin-bottom: 0;
+}
+
+.associated-users h3 {
+    margin-top: 0;
+}
+
+.associated-users .img-circle {
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+}
+
+.dropdown-login {
+    padding: 10px;
+    width: 240px;
+}
+
+.form-group label::after {
+    content: ':';
+}
+
+.form-group.required label::after {
+    content: '*:';
+}
+
+.navbar-right .img-circle {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* ================= RIDES ================= */
+.rides .img-circle {
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+}
+
+.highlight {
+    color: #337ab7;
+}
+
+.more-info-content {
+    display: none;
+}
+
+.ride {
+    animation: rideAnimation .5s forwards;
+    opacity: 0;
+}
+/* ================= END RIDES ================= */
+
+/* ================= FOOTER ================= */
+.footer {
+    height: 60px;
+    background-color: #231f20;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+/* ================= END FOOTER ================= */
+
+/* ================= RIDES ANIMATIONS ================= */
+.ride:nth-child(1) {
+    animation-delay: .25s;
+}
+
+.ride:nth-child(2) {
+    animation-delay: .5s;
+}
+
+.ride:nth-child(3) {
+    animation-delay: .75s;
+}
+
+.ride:nth-child(4) {
+    animation-delay: 1s;
+}
+
+.ride:nth-child(5) {
+    animation-delay: 1.25s;
+}
+
+.ride:nth-child(6) {
+    animation-delay: 1.5s;
+}
+
+.ride:nth-child(7) {
+    animation-delay: 1.75s;
+}
+
+.ride:nth-child(8) {
+    animation-delay: 2s;
+}
+
+.ride:nth-child(9) {
+    animation-delay: 2.25s;
+}
+
+.ride:nth-child(10) {
+    animation-delay: 2.5s;
+}
+/* ================= END RIDES ANIMATIONS ================= */
+
+/* ================= BUTTON STYLES ================= */
+.theme-choice .btn {
+    margin-right: 5px;
+}
+
+.btn {
+    position: relative;
+    z-index: 1;
+}
+/* ================= END BUTTON STYLES ================= */
+
+.btn::after {
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.35);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: scaleX(0);
+}
+
+.btn:active::after {
+    animation: activeEffect 0.75s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+
+/* ================= ANIMATIONS ================= */
+@keyframes activeEffect {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes rideAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* ================= END ANIMATIONS ================= */

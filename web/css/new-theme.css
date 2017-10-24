@@ -1,0 +1,56 @@
+/* NEW THEME */
+
+/* ================= CHANGE COLORS ================= */
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus, .btn-primary, .navbar-default {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.footer {
+    background-color: #607D8B;
+}
+/* ================= END CHANGE COLORS ================= */
+
+/* ================= BUTTONS ================= */
+.btn-default {
+    color: white;
+    background-color: #617d8b;
+    border-color: #617d8b;
+}
+
+.btn-default:hover {
+    background-color: #95a9b3;
+    border-color: #95a9b3;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #c59607;
+    border-color: #c59607;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #ffc107;
+}
+/* ================= END BUTTONS ================= */
+
+/* ================= THUMBNAIL ================= */
+.thumbnail {
+    background: #ffc107;
+}
+
+.thumbnail-footer {
+    background: #607D8B;
+}
+
+.thumbnail-footer .help-block {
+    color: white;
+}
+/* ================= END THUMBNAIL ================= */
+
+/* ================= HEADER ================= */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e2aa01;
+}
+/* ================= END HEADER ================= */
