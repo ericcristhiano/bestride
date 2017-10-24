@@ -14,10 +14,13 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=7.0.0",
-        "yiisoft/yii2": "~2.0.5",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0"
+        "php": ">=5.4.0",
+        "ext-mbstring": "*",
+        "ext-gd": "*",
+        "yiisoft/yii2-dev": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "fxp/composer-asset-plugin": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
